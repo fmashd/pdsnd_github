@@ -241,7 +241,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#This function was not there at first like others it was type to diplay data of at user request
 def display_data(df):
     choice = input('Would you like to read some of the raw data? Yes/No ').lower()
     print()
