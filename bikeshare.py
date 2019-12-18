@@ -241,7 +241,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#To make this code simpler in the if else state when user in put 'choice' remove other options and leave only yes or no
 def display_data(df):
     choice = input('Would you like to read some of the raw data? Yes/No ').lower()
     print()
